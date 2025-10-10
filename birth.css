@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Playfair+Display", serif;
+    background-color:hsl(211, 22%, 81%);
+    color:#112A46 ;
+    margin: 4rem 8rem;
+    padding: 4rem;
+    
+   
+}
+section{
+    font-size: 40px;
+}
+
+input{
+    width: 100%;
+    border: 3px solid rgba(65, 112, 151, 0.274);
+    height: 2rem;
+}
+button{
+    width: 19rem;
+    font-size: 3rem;
+    
+
+}
+#dateofbirth{
+    height: 3rem;
+}
+fieldset{
+    border: 3px solid gray;
+    border-radius: 20px;
+    padding: 3rem;
+}
+@media only screen and (max-width:600px){
+   body{ padding: 2rem;
+    margin: 1rem 1rem;
+}
+section{
+    font-size: 1.5rem;
+}
+button{
+    font-size: 2rem;
+}
+}
